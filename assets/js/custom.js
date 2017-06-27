@@ -345,7 +345,7 @@
 		 * Google Map
 		/* ---------------------------------------------- */
 
-		var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);
+		var mapLocation = new google.maps.LatLng(49.413423,8.678208);
 
 		var $mapis = $('#map');
 
@@ -370,9 +370,9 @@
 			map.addMarker({
 				position: mapLocation,
 				icon: image,
-				title: 'Vortex',
+				title: 'André Janke',
 				infoWindow: {
-					content: '<p><strong>Vortex</strong><br/>121 Somewhere Ave, Suite 123<br/>P: (123) 456-7890<br/>Australia</p>'
+					content: '<p><strong>André Janke</strong><br/>Humboldtstraße 6<br/>69120 Heidelberg<br/>Germany<br/>P: (123) 456-7890</p>'
 				}
 			});
 
